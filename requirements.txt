@@ -1,0 +1,17 @@
+# --- Core runtime dependencies for Jarvis-549 ---
+requests>=2.31.0        # HTTP for Gemini, Wikipedia, weather, IP
+pyttsx3>=2.90           # offline text-to-speech (optional but recommended)
+pywhatkit>=5.4          # YouTube playback (optional; gracefully falls back)
+PyAutoGUI>=0.9.54       # screenshots
+psutil>=5.9.0           # system info / battery (optional)
+pyperclip>=1.8.0        # clipboard read (optional)
+sounddevice>=0.4.6      # microphone recording for voice input
+SpeechRecognition>=3.10.0  # speech-to-text via Google API
+numpy>=1.24.0           # audio data handling
+
+# --- Optional / convenience (used by the original project) ---
+# customtkinter>=5.2.2   # alternative UI toolkit (not required for v3)
+# pywin32>=306           # Windows SAPI voice / system integration
+
+# --- For developers / testing ---
+# pytest>=7.0.0
